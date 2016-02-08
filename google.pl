@@ -1,7 +1,10 @@
 #!/usr/bin/perl
-# google.pl - Perl script that searches Google and returns results
+# google.pl - Perl script that displays the first page of results
+# for a google search for string supplied on the command line
+#
 # This script violates Google's TOS found here:
 # http://www.google.com/intl/en/policies/terms/
+#
 # Use at your own risk
 
 use LWP::UserAgent;
